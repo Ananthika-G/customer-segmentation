@@ -6,3 +6,6 @@ data/raw/
 *.xlsx
 *.csv
 .DS_Store
+
+data/processed/cleaned_global.csv
+data/raw/
