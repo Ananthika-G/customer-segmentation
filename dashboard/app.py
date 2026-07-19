@@ -209,3 +209,18 @@ elif page == "Retention Strategies":
 # 6. elif page == "Segment Analysis": ...
 # 7. elif page == "RFM Deep Dive": ...
 # 8. elif page == "Retention Strategies": ...
+
+import os
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_DIR = os.path.join(BASE_DIR, 'data', 'processed')
+
+# Fallback for Streamlit Cloud
+if not os.path.exists(DATA_DIR):
+    DATA_DIR = os.path.join(os.getcwd(), 'data', 'processed')
+
+@st.cache_data
+def load_data():
+    rfm        = pd.read_csv(os.path.join(DATA_DIR, 'rfm_clustered.csv'))
+    strategies = pd.read_csv(os.path.join(DATA_DIR, 'retention_strategies.csv'))
+    return rfm, strategies
