@@ -1,0 +1,8 @@
+Segment,Priority,Strategy,Actions,Channel,Expected_Impact,Estimated_ROI
+Champions,High,Loyalty & referral program,"VIP membership, referral rewards, early access","Email, App notification",Increase referrals by 20%,High
+At-Risk,Critical,Win-back campaign,"Personalised email, 15% discount, survey","Email, Phone, SMS",Recover 25% of at-risk customers,Very High
+Loyal Customers,High,Tier upgrade push,"Points multiplier, anniversary gift","Email, App",Move 30% to Champions tier,High
+Potential Loyalists,Medium,Engagement & upsell,"Recommendations, bundle offers","Email, Retargeting ads",Increase order frequency 15%,Medium
+New Customers,Medium,Onboarding & conversion,"Welcome series, second purchase discount","Email, Push notification",Convert 40% to repeat buyers,Medium
+Big Spenders,High,VIP & frequency boost,"Account manager, exclusive catalogue","Phone, Personal email",Double order frequency,Very High
+Lost,Low,Last-chance re-engagement,"Final email with 25% discount, then suppress",Email only,Recover 5-10% at low cost,Low
